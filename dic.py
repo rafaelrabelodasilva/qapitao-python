@@ -6,3 +6,7 @@ pessoa = {
 }
 
 print(pessoa['cidade'])
+
+pessoa['idade'] = 30
+pessoa['profissão'] = 'QA'
+print(pessoa)
