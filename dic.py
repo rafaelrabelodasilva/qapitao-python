@@ -5,8 +5,14 @@ pessoa = {
   'ativo': True
 }
 
-print(pessoa['cidade'])
+# print(pessoa['cidade'])
 
 pessoa['idade'] = 30
 pessoa['profissão'] = 'QA'
-print(pessoa)
+# print(pessoa)
+
+for chave in pessoa:
+  print(chave)
+
+for chave, valor in pessoa.items():
+  print(f'A chave {chave} guarda o valor {valor}')
